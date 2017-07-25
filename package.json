@@ -1,0 +1,36 @@
+{
+  "name": "axletree",
+  "version": "0.2.5",
+  "description": "Front End Integrated Solution for node express.",
+  "main": "index.js",
+  "bin": {
+    "axletree": "bin/axletree"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kekobin/axletree.git"
+  },
+  "keywords": [
+    "fis",
+    "node"
+  ],
+  "author": "kekobin",
+  "license": "ISC",
+  "homepage": "https://github.com/kekobin/axletree",
+  "dependencies": {
+    "fis3": "3.4.32",
+    "fis3-hook-commonjs": "0.1.26",
+    "fis3-hook-node_modules": "2.2.8",
+    "fis3-parser-typescript": "1.1.0",
+    "fis3-preprocessor-js-require-css": "0.1.1",
+    "fis3-preprocessor-js-require-file": "0.1.3",
+    "liftoff": "2.3.0",
+    "minimist": "1.2.0",
+    "axletree-command-init": "0.1.2",
+    "fis3-preprocessor-extlang": "1.1.9",
+    "fis-postprocessor-require-async": "0.0.9"
+  }
+}
